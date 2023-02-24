@@ -112,5 +112,7 @@ source $ZSH/oh-my-zsh.sh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
 
 bindkey '^ ' autosuggest-accept
-tmux new
-clear
+
+if [ -z "$TMUX" ]; then
+  exec tmux new
+fi
