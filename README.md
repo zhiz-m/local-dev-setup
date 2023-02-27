@@ -3,6 +3,8 @@ My personal setup
 
 If using WSL, install font from https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf and put in `C:/Windows/Fonts`
 
+Or download from https://www.nerdfonts.com/font-downloads
+
 Set default WSL font in settings
 
 ```sh
