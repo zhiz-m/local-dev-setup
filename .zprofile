@@ -10,9 +10,6 @@ fi
 
 cd $HOME
 
-# comp9315
-source ./comp9315/env
-
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
  --color=fg:#d0d0d0,bg:#121212,hl:#5f87af
  --color=fg+:#d0d0d0,bg+:#262626,hl+:#5fd7ff
