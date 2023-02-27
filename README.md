@@ -21,6 +21,7 @@ git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting.git ${Z
 git clone https://github.com/zhiz-m/linux-setup.git; \
 cp ./linux-setup/.p10k.zsh ~ && \
 cp ./linux-setup/.tmux.conf ~ && \
-cp ./linux-setup/.zshrc ~ && cp ./linux-setup/.zprofile ~ && \
+cp ./linux-setup/.zshrc ~ && \
+cp ./linux-setup/.zprofile ~ && \
 yes | rm -r linux-setup
 ```
