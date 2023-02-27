@@ -18,6 +18,10 @@ export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
 
 export LS_COLORS="di=1;32:ln=1;30;47:so=30;45:pi=30;45:ex=1;31:bd=30;46:cd=30;46:su=30;41:sg=30;41:tw=30;41:ow=30;41:*.rpm=1;31:*.deb=1;31"
 
+export FZF_DEFAULT_COMMAND="fd . $HOME"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fd -t d . $HOME"
+
 if [ -z "$TMUX" ]; then
   exec tmux new
 fi
