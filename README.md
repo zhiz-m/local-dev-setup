@@ -9,7 +9,7 @@ Set default WSL font in settings
 
 ```sh
 sudo apt-get install bat && \
-mkdir -p ~/.localbin && ln -s $(which batcat) ~/.local/bin/bat; \
+mkdir -p ~/.local/bin && ln -s $(which batcat) ~/.local/bin/bat; \
 sudo apt install fd-find && ln -s $(which fdfind) ~/.local/bin/fd; \
 sudo apt-get install fzf && sudo apt-get install zsh && \
 sudo apt-get install tmux && \
