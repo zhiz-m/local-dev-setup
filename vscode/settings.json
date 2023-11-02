@@ -1,0 +1,362 @@
+{
+    "explorer.confirmDelete": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "explorer.autoReveal": false,
+    "html.autoClosingTags": false,
+    "editor.autoSurround": "never",
+    "files.associations": {
+        "*.pl": "prolog"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "explorer.compactFolders": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "settingsSync.ignoredSettings": [
+        "-C_Cpp.default.compilerPath"
+    ],
+    "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always",
+    "remote.SSH.remotePlatform": {
+        "login.cse.unsw.edu.au": "linux",
+        "cse-box": "linux",
+        "cse-vxdb-box": "linux",
+        "ezkl": "linux"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "C_Cpp.default.compilerPath": "C:\\\\Program Files\\\\mingw-w64\\\\x86_64-7.3.0-posix-seh-rt_v5-rev0\\\\mingw64\\\\bin\\\\g++.exe",
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.cStandard": "c17",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    // "vim.useSystemClipboard": true,
+    // disable some not so useful vim hotkeys so they dont conflict with default vscode hotkeys
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        // "<C-d>": true,
+        // "<C-k>": true,
+        "<C-c>": false,
+        // "<C-u>": false,
+        "<C-v>": false,
+        "<C-x>": false,
+        "<C-a>": false,
+        // "<C-f>": false,
+        // "<C-h>": false,
+        // "<C-w>": false,
+        // "<C-n>": false,
+        // "<C-m>": false,
+        // "<C-y>": false,
+        // "<C-left>": false,
+        // "<C-right>": false,
+        // "<C-up>": false,
+        // "<C-down>": false,
+        // "<C-o>": false,
+        // "<C-i>": false,
+        "<M-j>": false,
+        "<A-k>": false,
+    },
+    "editor.cursorSurroundingLines": 6,
+    "editor.smoothScrolling": true,
+    // "editor.scroll"
+    // allow the cursor to go from the beginning of a line to the end of the previous line, and vice versa
+    "vim.whichwrap": "b,s,<,>,h,l,[,]",
+    "explorer.confirmDragAndDrop": false,
+    // Vim easymotion is required for Jump menu - <SPC> j
+    "vim.easymotion": true,
+    // Use system clipboard for vim
+    "vim.useSystemClipboard": true,
+    // Trigger the main which key menu with in the active editor with vim
+    // This cannot be put into keybindings.json because it will
+    // create conflict with Vim.
+    // https://github.com/stevenguh/spacecode/issues/3
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "g",
+                "I"
+            ],
+            "commands": [
+                "editor.action.goToImplementation",
+                "editor.action.goToDeclaration"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "B"
+            ],
+            "commands": [
+                "breadcrumbs.focusAndSelect",
+                "breadcrumbs.toggleToOn"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "H"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover",
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "F"
+            ],
+            "commands": [
+                "editor.action.quickFix",
+            ]
+        },
+         {
+            "before": [
+                ",",","
+            ],
+            "after": [
+                "Left"
+            ]
+        },
+        {
+            "before": [
+                ".","."
+            ],
+            "after": [
+                "Right"
+            ]
+        },        
+        //        {
+        //     "before": [
+        //         "\"","\""
+        //     ],
+        //     "after": [
+        //         "\"","\"","Left"
+        //     ]
+        // },        {
+        //     "before": [
+        //         "{","<Cr>"
+        //     ],
+        //     "after": [
+        //         "{","}","Left","<Cr>"
+        //     ]
+        // },
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "g",
+                "I"
+            ],
+            "commands": [
+                "editor.action.goToImplementation",
+                "editor.action.goToDeclaration"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "B"
+            ],
+            "commands": [
+                "breadcrumbs.focusAndSelect",
+                "breadcrumbs.toggleToOn"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "H"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover",
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "F"
+            ],
+            "commands": [
+                "editor.action.quickFix",
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "vspacecode.space"
+            ]
+        },
+        {
+            "before": [
+                ","
+            ],
+            "commands": [
+                "vspacecode.space",
+                {
+                    "command": "whichkey.triggerKey",
+                    "args": "m"
+                }
+            ]
+        },
+        {
+            "before": [
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "D"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "D"
+            ]
+        },
+        {
+            "before": [
+                "d",
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "c"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                "C"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "C"
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "vspacecode.space"
+            ]
+        },
+        {
+            "before": [
+                ","
+            ],
+            "commands": [
+                "vspacecode.space",
+                {
+                    "command": "whichkey.triggerKey",
+                    "args": "m"
+                }
+            ]
+        },
+        {
+            "before": [
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "D"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "D"
+            ]
+        },
+        {
+            "before": [
+                "d",
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "c"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                "C"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "C"
+            ]
+        },
+    ],
+    "vspacecode.bindingOverrides": [
+    {
+      "keys": "f.u",
+      "name": "New untitled file",
+      "type": "command",
+      "command":"workbench.action.files.newUntitledFile",
+    }
+  ],
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.autoClosingDelete": "never",
+    "editor.accessibilitySupport": "off"
+}
