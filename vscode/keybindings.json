@@ -1,486 +1,351 @@
-{
-    "explorer.confirmDelete": false,
-    "editor.autoClosingBrackets": "never",
-    "editor.autoClosingQuotes": "never",
-    "explorer.autoReveal": false,
-    "html.autoClosingTags": false,
-    "editor.autoSurround": "never",
-    "files.associations": {
-        "*.pl": "prolog"
-    },
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
-    },
-    "explorer.compactFolders": false,
-    "notebook.cellToolbarLocation": {
-        "default": "right",
-        "jupyter-notebook": "left"
-    },
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
-    },
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "settingsSync.ignoredSettings": [
-        "-C_Cpp.default.compilerPath"
-    ],
-    "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always",
-    "remote.SSH.remotePlatform": {
-        "login.cse.unsw.edu.au": "linux",
-        "cse-box": "linux",
-        "cse-vxdb-box": "linux",
-        "ezkl": "linux"
-    },
-    "[python]": {
-        "editor.formatOnType": true
-    },
-    "C_Cpp.default.compilerPath": "C:\\\\Program Files\\\\mingw-w64\\\\x86_64-7.3.0-posix-seh-rt_v5-rev0\\\\mingw64\\\\bin\\\\g++.exe",
-    "C_Cpp.default.cppStandard": "c++23",
-    "C_Cpp.default.cStandard": "c17",
-    "editor.inlineSuggest.enabled": true,
-    "github.copilot.enable": {
-        "*": false,
-        "yaml": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
-    },
-    // "vim.useSystemClipboard": true,
-    // disable some not so useful vim hotkeys so they dont conflict with default vscode hotkeys
-    "vim.useCtrlKeys": true,
-    "vim.handleKeys": {
-        // "<C-d>": true,
-        // "<C-k>": true,
-        "<C-c>": false,
-        // "<C-u>": false,
-        "<C-v>": false,
-        "<C-x>": false,
-        "<C-a>": false,
-        "<C-f>": false,
-        "<C-h>": false,
-        "<C-w>": false,
-        "<C-e>": false,
-        // "<C-n>": false,
-        // "<C-m>": false,
-        "<C-y>": false,
-        // "<C-left>": false,
-        // "<C-right>": false,
-        // "<C-up>": false,
-        // "<C-down>": false,
-        // "<C-o>": false,
-        // "<C-i>": false,
-        "<M-j>": false,
-        "<A-k>": false,
-    },
-    "editor.cursorSurroundingLines": 6,
-    "editor.smoothScrolling": true,
-    // "editor.scroll"
-    // allow the cursor to go from the beginning of a line to the end of the previous line, and vice versa
-    "vim.whichwrap": "b,s,<,>,h,l,[,]",
-    "explorer.confirmDragAndDrop": false,
-    // Vim easymotion is required for Jump menu - <SPC> j
-    "vim.easymotion": true,
-    // Use system clipboard for vim
-    "vim.useSystemClipboard": true,
-    // Trigger the main which key menu with in the active editor with vim
-    // This cannot be put into keybindings.json because it will
-    // create conflict with Vim.
-    // https://github.com/stevenguh/spacecode/issues/3
-    "vim.insertModeKeyBindings": [
-        // {
-        //     "before": [
-        //         "g",
-        //         "I"
-        //     ],
-        //     "commands": [
-        //         "editor.action.goToImplementation",
-        //         "editor.action.goToDeclaration"
-        //     ]
-        // },
-        // {
-        //     "before": [
-        //         "g",
-        //         "B"
-        //     ],
-        //     "commands": [
-        //         "breadcrumbs.focusAndSelect",
-        //         "breadcrumbs.toggleToOn"
-        //     ]
-        // },
-        // {
-        //     "before": [
-        //         "g",
-        //         "H"
-        //     ],
-        //     "commands": [
-        //         "editor.action.showDefinitionPreviewHover",
-        //     ]
-        // },
-        // {
-        //     "before": [
-        //         "g",
-        //         "F"
-        //     ],
-        //     "commands": [
-        //         "editor.action.quickFix",
-        //     ]
-        // },
-        //  {
-        //     "before": [
-        //         ",",","
-        //     ],
-        //     "after": [
-        //         "Left"
-        //     ]
-        // },
-        // {
-        //     "before": [
-        //         ".","."
-        //     ],
-        //     "after": [
-        //         "Right"
-        //     ]
-        // },        
-        //        {
-        //     "before": [
-        //         "\"","\""
-        //     ],
-        //     "after": [
-        //         "\"","\"","Left"
-        //     ]
-        // },        {
-        //     "before": [
-        //         "{","<Cr>"
-        //     ],
-        //     "after": [
-        //         "{","}","Left","<Cr>"
-        //     ]
-        // },
-    ],
-    "vim.normalModeKeyBindings": [
-        // {
-        //     "before": [
-        //         "g",
-        //         "I"
-        //     ],
-        //     "commands": [
-        //         "editor.action.goToImplementation",
-        //         "editor.action.goToDeclaration"
-        //     ]
-        // },
-        // {
-        //     "before": [
-        //         "g",
-        //         "B"
-        //     ],
-        //     "commands": [
-        //         "breadcrumbs.focusAndSelect",
-        //         "breadcrumbs.toggleToOn"
-        //     ]
-        // },
-        // {
-        //     "before": [
-        //         "g",
-        //         "H"
-        //     ],
-        //     "commands": [
-        //         "editor.action.showDefinitionPreviewHover",
-        //     ]
-        // },
-        // {
-        //     "before": [
-        //         "g",
-        //         "F"
-        //     ],
-        //     "commands": [
-        //         "editor.action.quickFix",
-        //     ]
-        // },
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                ","
-            ],
-            "commands": [
-                "vspacecode.space"
-            ]
-        }, {
-            "before": [
-                "<space>"
-            ],
-            "commands": [
-                "vspacecode.space"
-            ]
-        }, {
-            "before": [
-                ","
-            ],
-            "commands": [
-                "vspacecode.space"
-            ]
-        },
-        {
-            "before": [
-                "g"
-            ],
-            "commands": [
-                "vspacecode.space",
-                {
-                    "command": "whichkey.triggerKey",
-                    "args": "g"
-                }
-            ]
-        },
-        {
-            "before": [
-                "d"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "d"
-            ]
-        },
-        {
-            "before": [
-                "D"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "D"
-            ]
-        },
-        {
-            "before": [
-                "d",
-                "d"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "d",
-                "d"
-            ]
-        },
-        {
-            "before": [
-                "c"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "c"
-            ]
-        },
-        {
-            "before": [
-                "C"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "C"
-            ]
-        },
-    ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<space>"
-            ],
-            "commands": [
-                "vspacecode.space"
-            ]
-        },
-        {
-            "before": [
-                "g"
-            ],
-            "commands": [
-                "vspacecode.space",
-                {
-                    "command": "whichkey.triggerKey",
-                    "args": "g"
-                }
-            ]
-        },
-        {
-            "before": [
-                "d"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "d"
-            ]
-        },
-        {
-            "before": [
-                "D"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "D"
-            ]
-        },
-        {
-            "before": [
-                "d",
-                "d"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "d",
-                "d"
-            ]
-        },
-        {
-            "before": [
-                "c"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "c"
-            ]
-        },
-        {
-            "before": [
-                "C"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "C"
-            ]
-        },
-    ],
-    "vspacecode.bindingOverrides": [
-        {
-            "keys": "f.u",
-            "name": "New untitled file",
-            "type": "command",
-            "command": "workbench.action.files.newUntitledFile",
-        },
-        {
-            "keys": "g",
-            "name": "Jump",
-            "type": "bindings",
-            "bindings": [
-                {
-                    "key": "j",
-                    "name": "Jump back",
-                    "type": "Command",
-                    "command": "workbench.action.navigateBack"
-                },
-                {
-                    "key": "k",
-                    "name": "Jump forward",
-                    "type": "Command",
-                    "command": "workbench.action.navigateForward"
-                },
-                {
-                    "key": "i",
-                    "name": "Jump to implementation",
-                    "type": "Command",
-                    "command": "editor.action.goToImplementation",
-                },
-                {
-                    "key": "d",
-                    "name": "Jump to declaration",
-                    "type": "Command",
-                    "command": "editor.action.goToDeclaration"
-                },
-                {
-                    "key": "e",
-                    "name": "Next error",
-                    "type": "command",
-                    "command": "editor.action.marker.nextInFiles"
-                },
-                {
-                    "key": "h",
-                    "name": "Hover",
-                    "type": "command",
-                    "command": "editor.action.showDefinitionPreviewHover"
-                },
-                {
-                    "key": "f",
-                    "name": "Quickfix",
-                    "type": "command",
-                    "command": "editor.action.quickFix"
-                }
-            ]
-        },
-        // {
-        //     "keys": ",",
-        //     "name": "Major mode",
-        //     "type": "bindings",
-        //     "bindings": [
-        //         {
-        //             "key": "h",
-        //             "name": "Hover",
-        //             "type": "command",
-        //             "command": "editor.action.showDefinitionPreviewHover"
-        //         },
-        //         {
-        //             "key": "g",
-        //             "name": "Jump",
-        //             "type": "bindings",
-        //             "bindings": [
-        //                 {
-        //                     "key": "j",
-        //                     "name": "Jump back",
-        //                     "type": "Command",
-        //                     "command": "editor.action.navigateBack"
-        //                 },
-        //                 {
-        //                     "key": "k",
-        //                     "name": "Jump forward",
-        //                     "type": "Command",
-        //                     "command": "editor.action.navigateForward"
-        //                 },
-        //                 {
-        //                     "key": "i",
-        //                     "name": "Jump to implementation/declaration",
-        //                     "type": "Commands",
-        //                     "commands": [
-        //                         "editor.action.goToImplementation",
-        //                         "editor.action.goToDeclaration"
-        //                     ]
-        //                 },
-        //                 {
-        //                     "key": "e",
-        //                     "name": "Next error",
-        //                     "type": "command",
-        //                     "command": "editor.action.marker.nextInFiles"
-        //                 }
-        //             ]
-        //         },
-        //         {
-        //             "key": "e",
-        //             "name": "Errors",
-        //             "type": "bindings",
-        //             "bindings": [
-        //                 {
-        //                     "key": "n",
-        //                     "name": "Next error",
-        //                     "type": "command",
-        //                     "command": "editor.action.marker.nextInFiles"
-        //                 }
-        //             ]
-        //         }
-        //     ]
-        // }
-    ],
-    "editor.autoClosingDelete": "never",
-    "editor.accessibilitySupport": "off",
-    "workbench.colorTheme": "One Dark Pro Darker"
-}
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "f8",
+		"command": "workbench.action.tasks.runTask",
+		"args": "Setup source file"
+	},
+	{
+		"key": "f9",
+		"command": "workbench.action.tasks.runTask",
+		"args": "Compile and test debug"
+	},
+	{
+		"key": "ctrl+q",
+		"command": "workbench.action.terminal.focus",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+q",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active"
+	},
+	{
+		"key": "ctrl+`",
+		"command": "workbench.action.toggleEditorWidths"
+	},
+	{
+		"key": "ctrl+alt+k",
+		"command": "moveActiveEditor",
+		"args": {
+			"to": "right"
+		}
+	},
+	{
+		"key": "ctrl+alt+j",
+		"command": "moveActiveEditor",
+		"args": {
+			"to": "left"
+		}
+	},
+	{
+		"key": "alt+k",
+		"command": "workbench.action.nextEditor"
+	},
+	{
+		"key": "alt+j",
+		"command": "workbench.action.previousEditor"
+	},
+	{
+		"key": "ctrl+shift+alt+k",
+		"command": "workbench.action.moveEditorToNextGroup"
+	},
+	{
+		"key": "ctrl+shift+alt+j",
+		"command": "workbench.action.moveEditorToPreviousGroup"
+	},
+	// {
+	// 	"key": "alt+j",
+	// 	"command": "workbench.action.navigateBack",
+	// 	"when": "canNavigateBack"
+	// },
+	// {
+	// 	"key": "alt+k",
+	// 	"command": "workbench.action.navigateForward",
+	// 	"when": "canNavigateForward"
+	// },
+	{
+		"key": "ctrl+shift+k",
+		"command": "workbench.action.focusFirstEditorGroup"
+	},
+	{
+		"key": "ctrl+shift+j",
+		"command": "workbench.action.focusSecondEditorGroup"
+	},
+	// {
+	// 	"key": "ctrl+shift+j",
+	// 	"command": "breadcrumbs.focusAndSelect",
+	// 	"when": "breadcrumbsPossible && breadcrumbsVisible"
+	// },
+	// {
+	// 	"key": "ctrl+shift+j",
+	// 	"command": "breadcrumbs.toggleToOn",
+	// 	"when": "!config.breadcrumbs.enabled"
+	// },
+	{
+		"key": "shift+escape",
+		"command": "editor.action.escapeFocusHover",
+		"when": "editorHoverFocused"
+	},
+	// {
+	// 	"key": "alt+1",
+	// 	"command": "editor.action.showDefinitionPreviewHover"
+	// },
+	// {
+	// 	"key": "alt+1",
+	// 	"command": "editor.action.escapeFocusHover",
+	// 	"when": "editorHoverFocused"
+	// },
+	// {
+	// 	"key": "alt+2",
+	// 	"command": "editor.action.goToImplementation"
+	// },
+	// {
+	// 	"key": "alt+2",
+	// 	"command": "editor.action.goToDeclaration"
+	// },
+	// {
+	// 	"key": "alt+3",
+	// 	"command": "editor.action.quickFix"
+	// },
+	// {
+	// 	"key": "alt+4",
+	// 	"command": "editor.action.addSelectionToNextFindMatch",
+	// 	"when": "editorFocus"
+	// },
+	// {
+	// 	"key": "ctrl+m",
+	// 	"command": "editor.action.marker.nextInFiles",
+	// 	"when": "editorFocus"
+	// },
+	// {
+	//     "key": "ctrl+l",
+	//     "command": "expandLineSelection"
+	// },
+	// {
+	//     "key": "ctrl+up",
+	//     "command": "scrollLineUp"
+	// },
+	// {
+	//     "key": "ctrl+down",
+	//     "command": "scrollLineDown"
+	// },
+	// {
+	//     "key": "ctrl+alt+up",
+	//     "command": "cursorPageUp"
+	// },
+	// {
+	//     "key": "ctrl+alt+down",
+	//     "command": "cursorPageDown"
+	// },
+	{
+		"key": "ctrl+alt+p",
+		"command": "workbench.action.files.openFile",
+		"when": "true"
+	},
+	{
+		"key": "space",
+		"command": "vspacecode.space",
+		"when": "activeEditorGroupEmpty && focusedView == '' && !whichkeyActive && !inputFocus"
+	},
+	{
+		"key": "space",
+		"command": "vspacecode.space",
+		"when": "sideBarFocus && !inputFocus && !whichkeyActive"
+	},
+	{
+		"key": "tab",
+		"command": "extension.vim_tab",
+		"when": "editorFocus && vim.active && !inDebugRepl && vim.mode != 'Insert' && editorLangId != 'magit'"
+	},
+	{
+		"key": "tab",
+		"command": "-extension.vim_tab",
+		"when": "editorFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'"
+	},
+	{
+		"key": "x",
+		"command": "magit.discard-at-point",
+		"when": "editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+	},
+	{
+		"key": "k",
+		"command": "-magit.discard-at-point"
+	},
+	{
+		"key": "-",
+		"command": "magit.reverse-at-point",
+		"when": "editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+	},
+	{
+		"key": "v",
+		"command": "-magit.reverse-at-point"
+	},
+	{
+		"key": "shift+-",
+		"command": "magit.reverting",
+		"when": "editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+	},
+	{
+		"key": "shift+v",
+		"command": "-magit.reverting"
+	},
+	{
+		"key": "shift+o",
+		"command": "magit.resetting",
+		"when": "editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+	},
+	{
+		"key": "shift+x",
+		"command": "-magit.resetting"
+	},
+	{
+		"key": "x",
+		"command": "-magit.reset-mixed"
+	},
+	{
+		"key": "ctrl+u x",
+		"command": "-magit.reset-hard"
+	},
+	{
+		"key": "y",
+		"command": "-magit.show-refs"
+	},
+	{
+		"key": "y",
+		"command": "vspacecode.showMagitRefMenu",
+		"when": "editorTextFocus && editorLangId == 'magit' && vim.mode == 'Normal'"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "workbench.action.quickOpenSelectNext",
+		"when": "inQuickOpen"
+	},
+	// {
+	// 	"key": "ctrl+k",
+	// 	"command": "workbench.action.quickOpenSelectPrevious",
+	// 	"when": "inQuickOpen"
+	// },
+	{
+		"key": "ctrl+j",
+		"command": "selectNextSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	},
+	// {
+	// 	"key": "ctrl+k",
+	// 	"command": "selectPrevSuggestion",
+	// 	"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	// },
+	{
+		"key": "ctrl+l",
+		"command": "acceptSelectedSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "showNextParameterHint",
+		"when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+	},
+	// {
+	// 	"key": "ctrl+k",
+	// 	"command": "showPrevParameterHint",
+	// 	"when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+	// },
+	{
+		"key": "ctrl+j",
+		"command": "selectNextCodeAction",
+		"when": "codeActionMenuVisible"
+	},
+	// {
+	// 	"key": "ctrl+k",
+	// 	"command": "selectPrevCodeAction",
+	// 	"when": "codeActionMenuVisible"
+	// },
+	{
+		"key": "ctrl+l",
+		"command": "acceptSelectedCodeAction",
+		"when": "codeActionMenuVisible"
+	},
+	{
+		"key": "ctrl+h",
+		"command": "file-browser.stepOut",
+		"when": "inFileBrowser"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "file-browser.stepIn",
+		"when": "inFileBrowser"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "workbench.action.quickOpenSelectPrevious",
+		"when": "inQuickOpen"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "selectPrevSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "showPrevParameterHint",
+		"when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "selectPrevCodeAction",
+		"when": "codeActionMenuVisible"
+	},
+	// // Down Motion
+	// {
+	// 	"key": "alt+j",
+	// 	"command": "cursorDown",
+	// 	"when": "textInputFocus"
+	// },
+	// {
+	// 	"key": "alt+j",
+	// 	"command": "showNextParameterHint",
+	// 	"when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+	// },
+	// {
+	// 	"key": "alt+j",
+	// 	"command": "selectNextSuggestion",
+	// 	"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	// },
+	// {
+	// 	"key": "alt+j",
+	// 	"command": "list.focusDown",
+	// 	"when": "listFocus && !inputFocus"
+	// },
+	// {
+	// 	"key": "alt+j",
+	// 	"command": "workbench.action.quickOpenSelectNext",
+	// 	"when": "inQuickOpen"
+	// },
+	// // Up Motion
+	// {
+	// 	"key": "alt+k",
+	// 	"command": "cursorUp",
+	// 	"when": "textInputFocus"
+	// },
+	// {
+	// 	"key": "alt+k",
+	// 	"command": "showPrevParameterHint",
+	// 	"when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+	// },
+	// {
+	// 	"key": "alt+k",
+	// 	"command": "selectPrevSuggestion",
+	// 	"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	// },
+	// {
+	// 	"key": "alt+k",
+	// 	"command": "list.focusUp",
+	// 	"when": "listFocus && !inputFocus"
+	// },
+	// {
+	// 	"key": "alt+k",
+	// 	"command": "workbench.action.quickOpenSelectPrevious",
+	// 	"when": "inQuickOpen"
+	// }
+]
